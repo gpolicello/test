@@ -5,3 +5,5 @@
 inline std::string bleh() {
     return "bleh";
 }
+
+std::string bleh2();

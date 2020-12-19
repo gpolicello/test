@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "../test/say_bleh.h"
+#include "../StaticLib1/say_bleh.h"
 
 TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
@@ -9,3 +9,8 @@ TEST(TestCaseName, TestName) {
 TEST(TestCaseName, sayBleh) {
     EXPECT_EQ("bleh", bleh());
 }
+
+TEST(TestCaseName, sayBleh2) {
+    EXPECT_EQ("bleh2", bleh2());
+}
+

@@ -45,12 +45,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\test\test.vcxproj">
-      <Project>{bea3ac56-4997-4abf-b89a-4eec003e5e70}</Project>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\StaticLib1\StaticLib1.vcxproj">
+      <Project>{d30e85e5-3cbc-4505-9ce5-9b8a0f5c06ef}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
